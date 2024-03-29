@@ -9,4 +9,6 @@ package part02.chapter03;
  */
 public interface YourInterface {
 
+	
+	
 }

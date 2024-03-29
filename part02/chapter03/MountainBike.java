@@ -19,7 +19,7 @@ public class MountainBike extends Bicycle {
 	// 添加一个山地车子类自己的构造器
 	public MountainBike(int startHeight, int startCadence, int startSpeed, int startGear) {
 		super(startCadence, startSpeed, startGear);
-		gear = startGear;
+		seatHeight = startHeight;
 	}
 
 	// 添加一个山地车子类自己的方法

@@ -9,4 +9,6 @@ package part02.chapter03;
  */
 public class MySuperClass {
 
+	// 类体：成员变量、构造器和方法定义区
+	
 }
