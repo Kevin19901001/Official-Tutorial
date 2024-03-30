@@ -8,4 +8,9 @@ package part02.chapter03;
  */
 public class Calculator {
 
+  // 一个典型的方法定义
+  public double calculateAnswer(double wingSpan, int numberOfEngines, double length, double grossTons){
+
+  }
+  
 }
