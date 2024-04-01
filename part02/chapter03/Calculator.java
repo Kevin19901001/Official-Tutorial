@@ -19,7 +19,7 @@ public class Calculator {
 	// 5、一场列表，后面将会学习到；
 	// 6、方法体，方法的实现，包括局部变量的定义等等
 
-	// 方法名和参数列表，构成方法的“签名”
+	// 方法名和参数类型，构成方法的“签名”
 	
 	// 一个典型的方法定义
 	public double calculateAnswer(double wingSpan, int numberOfEngines, double length, double grossTons) {
