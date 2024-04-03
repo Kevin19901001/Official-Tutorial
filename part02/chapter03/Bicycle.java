@@ -23,15 +23,22 @@ public class Bicycle {
 	// 1、public---可以通过所有的类访问；
 	// 2、private---只能通过自己的类访问
 
-	// Bicycle类定义3个成员变量
-//	public int cadence; // 节奏
-//	public int gear; // 传动装置
-//	public int speed; // 速度
-
 	// 在“封装”的思想中，通常用private来修饰成员变量
 	private int cadence;
 	private int gear;
 	private int speed;
+	
+	// 3.4 为类提供构造器
+	// 就算bicycle只有1个构造器，它也可以有其它的构造器，包括没有参数的构造器：
+	public Bicycle() {
+		gear = 1;
+		cadence = 10;
+		speed = 0;
+	}
+	
+	// 不同的构造器都可以在类中存在，因为它们有着不同的参数列表；
+	// 如果编写同名且参数相同的构造器，那么会产生编译时错误。
+	
 
 	// Bicycle类定义1个构造器
 	public Bicycle(int startCadence, int startSpeed, int startGear) {
@@ -72,6 +79,14 @@ public class Bicycle {
 
 	public static void main(String[] args) {
 
+		// 通过new关键字调用构造器来创建Bicycle类的对象myBike
+		Bicycle myBike = new Bicycle(30, 0, 8);
+		myBike.getCadence();
+		
+		// 使用无参构造器来创建对象
+		Bicycle yourBike = new Bicycle();
+		yourBike.getGear();
+		
 	}
 
 }
