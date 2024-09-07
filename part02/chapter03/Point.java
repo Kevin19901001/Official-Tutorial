@@ -1,5 +1,12 @@
 package part02.chapter03;
 
+/**
+ * @author FanHuanQing
+ * 
+ * @since 2024-09-06
+ * 
+ * Point类。
+ */
 public class Point {
 
 	public int x;
